@@ -1,0 +1,59 @@
+.contact-information {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color: #191c26;
+  background-image: url("../images/contact-information/Bg.png");
+  width: 625px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 100px;
+
+  .tittle {
+    padding-bottom: 40px;
+  }
+
+  .subtittle {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+.contact-information_list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.address {
+  margin-bottom: 70px;
+}
+
+
+
+.contact-information_list-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-information_list-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.contact-information_list-svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.contact-information_working-hours {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}

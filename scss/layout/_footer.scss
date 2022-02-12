@@ -1,0 +1,22 @@
+.footer {
+  background-color: #f7f7f7;
+
+  .container {
+    min-height: 127px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 55px;
+  }
+}
+
+
+
+.footer_copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: #9da4bd;
+  padding-left: 55px;
+}

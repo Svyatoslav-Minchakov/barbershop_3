@@ -1,0 +1,27 @@
+.social_list {
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    margin-right: 40px;
+    background-color: #303030;
+  }
+}
+
+.social_list-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: #303030;
+  transition: color 250ms linear 250ms;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}

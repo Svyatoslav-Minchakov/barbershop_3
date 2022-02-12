@@ -1,0 +1,16 @@
+.galery {
+  padding-top: 130px;
+  padding-bottom: 130px;
+
+  .subtittle {
+    margin-bottom: 44px;
+  }
+}
+
+.galery_list {
+  display: flex;
+}
+
+.galery_list-item:not(:last-child) {
+  margin-right: 30px;
+}

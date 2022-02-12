@@ -1,0 +1,83 @@
+.contact-form {
+  flex-grow: 1;
+  padding-top: 130px;
+  padding-left: 56px;
+  width: 655px;
+  background-color: #191c26;
+
+  .tittle {
+    margin-bottom: 44px;
+  }
+
+  .modal-btn:focus {
+    outline: none;
+    transition: 100ms linear;
+  }
+}
+
+.form {
+  padding-right: 40px;
+}
+
+.form__name-input {
+  margin-right: 30px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid;
+  border-color: rgba(157, 164, 189, 0.4);
+  margin-bottom: 44px;
+
+  &:focus,
+  &:focus {
+    outline: none;
+    border-color: white;
+  }
+}
+
+.form__name-input:focus::placeholder,
+.form__tel-input:focus::placeholder,
+.form__message-input:focus::placeholder {
+  color: white;
+}
+
+.form__tel-input {
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid;
+  border-color: rgba(157, 164, 189, 0.4);
+  margin-bottom: 44px;
+}
+
+.form__message-input {
+  width: 100%;
+  background-color: transparent;
+  resize: none;
+  height: 76px;
+  border: none;
+  border-bottom: 1px solid;
+  border-color: rgba(157, 164, 189, 0.4);
+  margin-bottom: 44px;
+  color: white;
+
+  &:focus {
+    outline: none;
+    border-color: white;
+  }
+}
+
+.form__message-input::placeholder,
+.form__name-input::placeholder,
+.form__tel-input::placeholder {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+}
