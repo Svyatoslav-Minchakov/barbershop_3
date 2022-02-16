@@ -123,17 +123,47 @@
             </div>
         </section>
 
-        <!-- <section class="about">
+        <section class="about">
             <div class="container">
                 <div class="about-left-side">
                     <ul class="about_list">
                         <li class="about_list-item">
-                            <img class="about_list-img" src="./images/about/img1.jpg" alt="мастер бреет бороду"
-                                width="270" height="445">
+                            <picture>
+
+                                <source srcset="./images/about/about-img1-desktop.webp 1x, ./images/about/about-img1-desktop@2x.webp 2x"
+                                    media="(min-width: 1200px)" type="image/webp">
+                                
+                                <source srcset="./images/about/about-img1-desktop.jpg 1x, ./images/about/about-img1-desktop@2x.jpg 2x"
+                                  media="(min-width: 1200px)">
+                                
+                                <source srcset="./images/about/about-img1-tablet.webp 1x, ./images/about/about-img1-tablet@2x.webp 2x"
+                                    media="(min-width: 768px)" type="image/webp">
+
+                                <source srcset="./images/about/about-img1-tablet.jpg 1x, ./images/about/about-img1-tablet@2x.jpg 2x"
+                                    media="(min-width: 768px)">
+
+                                <img class="about_list-img" src="./images/about/about-img1-desktop.jpg" alt="мастер бреет бороду" ">
+                            </picture>
                         </li>
-                        <li>
-                            <img class="about_list-img" src="./images/about/img2.jpg" alt="мастер делает окантовку"
-                                width="270" height="445">
+                        <li class="about_list-item">
+                            
+                            <picture>
+
+                            <source srcset="./images/about/about-img2-desktop.webp 1x, ./images/about/about-img2-desktop@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+
+                            <source srcset="./images/about/about-img2-desktop.jpg 1x, ./images/about/about-img2-desktop@2x.jpg 2x" 
+                            media="(min-width: 1200px)">
+
+                            <source srcset="./images/about/about-img2-tablet.webp 1x, ./images/about/about-img2-tablet@2x.webp 2x"
+                                media="(min-width: 768px)">
+
+                            <source srcset="./images/about/about-img2-tablet.jpg 1x, ./images/about/about-img2-tablet@2x.jpg 2x" 
+                            media="(min-width: 768px)" type="image/webp">
+
+                            <img class="about_list-img" src="./images/about/about-img2-desktop.jpg" alt="мастер делает окантовку">
+                        </picture>
+                            
                         </li>
                     </ul>
                 </div>
@@ -154,11 +184,13 @@
                 </div>
             </div>
 
-        </section> -->
+        </section>
 
-        <!-- <section class="services">
+        <section class="services">
             <div class="container">
-                <p class="subtittle subtittle_dark-theme">Проведи время в компании лучших мастеров</p>
+                <p class="subtittle subtittle_dark-theme">
+                    <span></span>Проведи время в компании лучших мастеров 
+                </p>
                 <h2 class="tittle tittle_dark-theme">Услуги и цены</h2>
                 <div class="box-for-flex">
                     <ul class="services_left-list">
@@ -200,7 +232,7 @@
                 </div>
                 <button class="modal-btn" type="button">онлайн-запись</button>
             </div>
-        </section> -->
+        </section>
 
         <!-- <section class="advantages">
             <div class="container">
